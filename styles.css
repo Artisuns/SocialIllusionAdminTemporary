@@ -1,0 +1,162 @@
+#logo 
+{
+    position: absolute;
+    left: 27%;
+    top: 15%;
+    width: 40%;
+    height: 40%;
+}
+
+.inputtxtbox
+{
+    border-width: 5px;
+    border-color: brown;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+.inputtxtbox:hover 
+{
+    background-color: rgba(128, 0, 0, 0.529);
+    color: azure;
+}
+.inputtxtbox:hover::placeholder
+{
+    color: azure;
+}
+
+.btnstyle1
+{
+    border-width: 10px;
+    border-color: rgb(122, 23, 23);
+    border-style: solid;
+    background-color: azure;
+    color: rgb(122, 23, 23);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    border-style: inset;
+}
+.btnstyle1:hover 
+{
+    background-color: rgb(122, 23, 23);
+    border-color: azure;
+    color: azure;
+}
+
+.incorrecttxt 
+{
+    color: yellow;
+    font-size: large;
+}
+
+#welcometxt 
+{
+    opacity: 0%;
+    position: absolute;
+    left: 27%;
+    top: 30%;
+    font-size: 350%;
+    color: rgb(158, 34, 34);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hopetxt 
+{
+    opacity: 0%;
+    font-size: 200%;
+    color: rgb(158, 34, 34);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.profilepic1 
+{
+    opacity: 0%;
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    top: 65%;
+    left: 45%;
+    border-radius: 50%;
+}
+
+.spotifyintegration 
+{
+    opacity: 0%;
+}
+
+@keyframes fadeout 
+{
+    0% 
+    {
+        opacity: 100%;
+    }
+    100% 
+    {
+        opacity: 0%;
+    }
+}
+
+@keyframes fadein
+{
+    0% 
+    {
+        opacity: 0%;
+    }
+    100% 
+    {
+        opacity: 100%;
+    }
+}
+
+@keyframes changebackground 
+{
+    100% 
+    {
+        background-color: whitesmoke;
+    }
+}
+
+@keyframes welcometxtmove 
+{
+    0%
+    {
+        opacity: 100%;
+    }
+    100% 
+    {
+        opacity: 100%;
+        font-size: 125%;
+        top: 8%;
+        left: 88%;
+    }
+}
+@keyframes todaydatemove 
+{
+    0%
+    {
+        opacity: 100%;
+    }
+    100% 
+    {
+        opacity: 100%;
+        font-size: 75%;
+        left: 88%;
+        top: 12%;
+    }
+}
+
+@keyframes profilepicmove
+{
+    0%
+    {
+        opacity: 100%;
+    }
+    100% 
+    {
+        opacity: 100%;
+        width: 3%;
+        height: 6%;
+        top: 1%;
+        left: 95%;
+    }
+}
